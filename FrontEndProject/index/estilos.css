@@ -3,17 +3,39 @@ body{
 }
 
 h1{
-    font-size: 66px; 
-    font-weight: 600; 
-    line-height: 80px;
-    color: blue;
-}
+    font-size: 66px; font-weight: 600; line-height: 80px; color: rgb(255, 255, 255);}
+
+h2{font-size: 48; margin-bottom: 30px;}
 
 p{
     font-size: 18px; 
-    color: rgb(194, 23, 23);  
+    color:#999;  
     line-height: 1.8;
     margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.topmargin-xs{ 
+    margin-top: 15px;
+}
+
+.topmargin-sm{ 
+    margin-top: 30px;
+}
+
+.topmargin-lg{ 
+    margin-top: 60px;
 }
 
 .navbar{
@@ -44,8 +66,46 @@ p{
     color: white;
 }
 
+#hero p{
+    color: #ffff;
+}
+
 .content-center {
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
+}
+
+.materias-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 25px;
+    border-radius: 3px;
+}
+
+.materias-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.materias-container:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.materias-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.materias-details h2{
+    margin-bottom: 0px;
+}
+
+.materias-details a h2, .materias-details a p{
+    color:white;
 }

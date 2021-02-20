@@ -1,68 +1,150 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    
-    <link href="estilos.css" rel="stylesheet">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <link href="estilos.css" rel="stylesheet">
 
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
-    <title>Kiame pag</title>
-  </head>
-  <body>
-      
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/kiame.svg" class="logo-kiame" alt="kiameLogo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-        aria-expanded="false" aria-label="Toggle navigation">
+  <title>Kiame pag</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/kiame.svg" class="logo-kiame" alt="kiameLogo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <ion-icon name="menu-outline"></ion-icon>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="notas">Notas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="materias">Materias</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="otraCosa">Otra cosa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="contacto">Contacto</a>
-              </li>  
-          </ul>
-        </div>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="notas">Notas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="materias">Materias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="otraCosa">Otra cosa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
-    <section id="hero">
-        <div class="container">
-            <div class="content-center">
-                <h1>Educación integrada</h1>
-                <p>Sin migración, sin errores, todo en uno</p>
-            </div>
+  <section id="hero">
+    <div class="container">
+      <div class="content-center topmargin-lg">
+        <h1>Educación integrada</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quod consequatur in ab tenetur repellendus illum magni, hic officiis ipsam impedit aperiam,
+          ullam explicabo adipisci ipsum quibusdam cumque mollitia molestiae veniam?</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="materias">
+    <div class="container-fluid">
+      <div class="content-center">
+        <h2><strong>Materias recientes</strong></h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error numquam temporibus ipsa,
+          facilis hic veritatis eos! Voluptatem beatae dolores nesciunt laboriosam porro officia incidunt ipsum
+          laborum itaque fugit, eligendi quae.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="materias-container">
+          <div class="materias-details">
+            <a href="#">
+              <h2>Solo no repruebes</h2>
+            </a>
+            <a href="#">
+              <p>-Detalles 1-</p>
+            </a>
+          </div>
+          <img src="images/materia.svg" class="img-fluid" alt="edu-line01">
         </div>
-    </section>
+      </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+      <div class="col-md-6">
+        <div class="materias-container">
+          <div class="materias-details">
+            <a href="#">
+              <h2>Solo no repruebes</h2>
+            </a>
+            <a href="#">
+              <p>-Detalles 1-</p>
+            </a>
+          </div>
+          <img src="images/materia.svg" class="img-fluid" alt="edu-line01">
+        </div>
+      </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <div class="col-md-6">
+        <div class="materias-container">
+          <div class="materias-details">
+            <a href="#">
+              <h2>Solo no repruebes</h2>
+            </a>
+            <a href="#">
+              <p>-Detalles 1-</p>
+            </a>
+          </div>
+          <img src="images/materia.svg" class="img-fluid" alt="edu-line01">
+        </div>
+      </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-  </body>
+      <div class="col-md-6">
+        <div class="materias-container">
+          <div class="materias-details">
+            <a href="#">
+              <h2>Solo no repruebes</h2>
+            </a>
+            <a href="#">
+              <p>-Detalles 1-</p>
+            </a>
+          </div>
+          <img src="images/materia.svg" class="img-fluid" alt="edu-line01">
+        </div>
+      </div>
+     </div>
+   </div>
+  </section>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
