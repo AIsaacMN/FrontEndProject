@@ -1,0 +1,51 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 66px; 
+    font-weight: 600; 
+    line-height: 80px;
+    color: blue;
+}
+
+p{
+    font-size: 18px; 
+    color: rgb(194, 23, 23);  
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 67px;
+}
+
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color: blueviolet;
+}
+
+.logo-kiame{
+    min-width: 40.65px;
+    max-width: 47.06px;
+}
+.navbar-toggler { font-size: 30px;}
+.navbar-toggler:focus { outline: none; }
+
+#hero{
+    background-image: url('images/edu.png');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
