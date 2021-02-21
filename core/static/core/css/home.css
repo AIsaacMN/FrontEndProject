@@ -1,0 +1,188 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+----------------------------------------------KIAME PROYECT-------------------------------------------
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* ////////////////////
+   Estilos de titulo
+/////////////////////*/
+h1{font-size: 66px; font-weight: 600; line-height: 80px; color: rgb(255, 255, 255); margin-top: 150px;}
+
+h2{font-size: 48px; margin-bottom: 30px;}
+
+h3{font-size: 55px; margin-bottom: 30px; margin-top: 30px;}
+
+h4{font-size: 24px; margin-bottom: 10px;}
+
+h5{font-size: 24px; margin-bottom: 160px; color: black;}
+
+
+p{
+    font-size: 18px; 
+    color:#999;  
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.bg-ligth-grey{ background-color: #f5f5f5;}
+.bg-dark{background-color: rgb(54, 52, 54) !important;}
+
+.topmargin-xs{ 
+    margin-top: 15px;
+}
+
+.topmargin-sm{ 
+    margin-top: 30px;
+}
+
+.topmargin-lg{ 
+    margin-top: 60px;
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 67px;
+}
+
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color: blueviolet;
+}
+
+.logo-kiame{
+    min-width: 40.65px;
+    max-width: 47.06px;
+}
+.navbar-toggler { font-size: 30px;}
+.navbar-toggler:focus { outline: none; }
+
+/* //////////////
+     Hero
+//////////////*/
+
+#hero{
+    background-image: url('images/edu.png');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+#hero p{
+    color: #ffff;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+/* /////////////////
+    Materias y Notas
+//////////////////*/
+
+.materias-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 25px;
+    border-radius: 3px;
+}
+
+.materias-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+.materias-container:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.publica-container{
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    border-radius: 3px;
+}
+
+.publica-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+.publica-container:hover img{
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+.materias-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.materias-details h2{
+    margin-bottom: 0px;
+}
+
+
+.materias-details a h2, .materias-details a p{
+    color:white;
+}
+
+.materias-details a h4, .materias-details a p{
+    color:white;
+}
+.materias-details a h5, .materias-details a p{
+    color:rgb(0, 0, 0);
+}
+
+/* /////////////////
+       Footer
+//////////////////*/
+
+#footer{
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+#footer a {
+    color: #ffff;
+}
+
+#footer a:hover {
+    color: #ffff;
+}
+
+#footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
