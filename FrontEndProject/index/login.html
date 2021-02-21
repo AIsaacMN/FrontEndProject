@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Kiame lern | Login</title>
+    
+    <link rel="icon" type="image/svg+xml" href="images/kiame.svg" sizes="any" />
 
     <!--JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,7 +17,7 @@
 
     <!-- Nuestro css-->
     <link rel="stylesheet" type="text/css" href="login.css" th:href="@{/login.css}">
-
+    <title>Kiame lern | Login</title>
 </head>
 <body>
     <div class="modal-dialog text-center">
@@ -26,12 +27,15 @@
                     <img src="images/usuario.svg" th:src="@{/img/usuario.svg}"/>
                 </div>
                 <form class="col-12" th:action="@{/login}" method="get">
+                    <!-- Nombre de usuario -->
                     <div class="form-group" id="user-group">
                         <input type="text" class="form-control" placeholder="Nombre de usuario" name="username"/>
                     </div>
+                    <!-- Contraseña -->
                     <div class="form-group" id="contrasena-group">
                         <input type="password" class="form-control" placeholder="Contrasena" name="password"/>
                     </div>
+                    <!-- Registro -->
                     <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
                 </form>
                 <div class="col-12 forgot">

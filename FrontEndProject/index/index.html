@@ -11,8 +11,8 @@
   <link rel="icon" type="image/svg+xml" href="images/kiame.svg" sizes="any" />
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
   <!-- Style -->
   <link href="estilos.css" rel="stylesheet">
@@ -46,6 +46,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#materia" id="materias">Materias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#grupos" id="grupo">Grupos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#nota" id="notas">Notas</a>
@@ -151,15 +154,75 @@
     </div>
   </section>
 
+<!--Presentacion de grupos-->
+  <section id="grupos" class="bg-ligth-grey">
+    <div class="container-fluid">
+      <div class="content-center">
+        <h2><strong>Grupos<strong></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
+            aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
+            nesciunt error ut quidem autem.</p>
+      </div>
+    </div>
+     <!-- Muestreo de notas por fila   -->
+    <!--Opcion 1-->
+    <div class="row">
+      <div class="col-md-3">
+        <div class="materias-container">
+          <div class="materias-details">
+            <a href="#">
+              <h2>GRUP 1</h2>
+            </a>
+          </div>
+          <img src="images/grupo.svg" class="img-fluid" alt="pdf">
+        </div>
+      </div>
+
+      <!--Opcion 2-->
+      <div class="col-md-3">
+        <div class="materias-container">
+          <div class="materias-details">
+            <a href="#">
+              <h2>GRUP 2</h2>
+            </a>
+          </div>
+          <img src="images/grupo.svg" class="img-fluid" alt="pdf">
+        </div>
+      </div>
+      <!--Opcion 3-->
+      <div class="col-md-3">
+        <div class="materias-container">
+          <div class="materias-details">
+            <a href="#">
+              <h2>GRUP 3</h2>
+            </a>
+          </div>
+          <img src="images/grupo.svg" class="img-fluid" alt="pdf">
+        </div>
+      </div>
+
+      <!--Opcion 4-->
+      <div class="col-md-3">
+        <div class="materias-container">
+          <div class="materias-details">
+            <a href="#">
+              <h2>GRUP 4</h2>
+            </a>
+          </div>
+          <img src="images/grupo.svg" class="img-fluid" alt="pdf">
+        </div>
+      </div>
+  </section>
+
   <!--Presentacion de notas-->
 
-  <section id="nota" class="bg-ligth-grey">
+  <section id="nota">
     <div class="container">
       <div class="content-center">
         <h2><strong>Tus notas<strong></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
-            aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
-            nesciunt error ut quidem autem.</p>   
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
+          aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
+          nesciunt error ut quidem autem.</p>
       </div>
     </div>
 
@@ -214,24 +277,24 @@
       </div>
     </div>
   </section>
-  
+
   <!--Footer-->
   <section id=footer class="bg-dark">
     <div class="container">
       <img src="images/kiame.svg" class="logo-kiame" alt="logo">
       <ul class="list-inline">
-      <li class="list-inline-item footer-menu"><a href="#hero">Inicio</a></li>
-      <li class="list-inline-item footer-menu"><a href="#materia">Materias</a></li>
-      <li class="list-inline-item footer-menu"><a href="#nota">Notas</a></li>
-      <li class="list-inline-item footer-menu"><a href="publicaciones.html">Publicaciones</a></li>
+        <li class="list-inline-item footer-menu"><a href="#hero">Inicio</a></li>
+        <li class="list-inline-item footer-menu"><a href="#materia">Materias</a></li>
+        <li class="list-inline-item footer-menu"><a href="#nota">Notas</a></li>
+        <li class="list-inline-item footer-menu"><a href="publicaciones.html">Publicaciones</a></li>
       </ul>
       <ul class="list-inline">
         <li class="list-inline-item"><a href="#"><img src="images/instagram.svg" class="img-fluid"></a></li>
         <li class="list-inline-item"><a href="#"><img src="images/twitter.svg" class="img-fluid"></a></li>
         <li class="list-inline-item"><a href="#"><img src="images/youtube.svg" class="img-fluid"></a></li>
         <li class="list-inline-item"><a href="#"><img src="images/facebook.svg" class="img-fluid"></a></li>
-    </ul>
-    <small>©2021 Created by KIAME </small>
+      </ul>
+      <small>©2021 Created by KIAME </small>
     </div>
 
   </section>

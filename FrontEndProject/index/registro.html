@@ -25,11 +25,21 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images//favicon.png" />
 
-    <title>Publicaciones | KIAME</title>
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="login.css" th:href="@{/login.css}">
+
+    <title>Registro | KIAME</title>
 </head>
 
 <body>
-
+    <!-- Header -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <img src="images/kiame.svg" class="logo-kiame" alt="kiameLogo">
@@ -48,60 +58,38 @@
         </div>
     </nav>
 
-    <section id="materia">
-        <div class="container-fluid">
-          <div class="content-center">
-            <h3><strong>Bienvenido a publicaciones</strong></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error numquam temporibus ipsa,
-              facilis hic veritatis eos! Voluptatem beatae dolores nesciunt laboriosam porro officia incidunt ipsum
-              laborum itaque fugit, eligendi quae.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3">
-            <div class="publica-container">
-              <div class="materias-details">
-              </div>
-              <img src="images/materia.svg" class="img-fluid" alt="edu-line01">
-            </div>
-          </div>
-
-          <div class="col-md-9">
-            <div class="container-fluid">
-              <div class="content-left">
-                    <h2><strong>Materia</h2><strong>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error numquam temporibus ipsa,
-                            facilis hic veritatis eos! Voluptatem beatae dolores nesciunt laboriosam porro officia incidunt ipsum
-                            laborum itaque fugit, eligendi quae.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-3">
-              <div class="publica-container">
-                <div class="materias-details">
+    <!-- configuracion del cuadro de registro -->
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img">
+                    <img src="images/usuario.svg" th:src="@{/img/usuario.svg}"/>
                 </div>
-                <img src="images/materia.svg" class="img-fluid" alt="edu-line01">
-              </div>
+                <form class="col-12" th:action="@{/login}" method="get">
+                    <!-- Correo -->
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Corrreo" name="username"/>
+                    </div>
+                    <!-- Nuevo usuario -->
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Nuevo usuario" name="username"/>
+                    </div>
+                    <!-- Nombre completo  -->
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Nombre completo" name="username"/>
+                    </div>
+                    <!-- Contraseña -->
+                    <div class="form-group" id="contrasena-group">
+                        <input type="password" class="form-control" placeholder="Contraseña" name="password"/>
+                    </div>
+                    <!-- Registro-->
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Registrar </button>
+                </form>
             </div>
+        </div>
+    </div>
+
   
-            <div class="col-md-9">
-              <div class="container-fluid">
-                <div class="content-left">
-                      <h2><strong>Materia</h2><strong>
-                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error numquam temporibus ipsa,
-                              facilis hic veritatis eos! Voluptatem beatae dolores nesciunt laboriosam porro officia incidunt ipsum
-                              laborum itaque fugit, eligendi quae.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      </section>
       <section id=footer class="bg-dark">
         <div class="container">
           <img src="images/kiame.svg" class="logo-kiame" alt="logo">
