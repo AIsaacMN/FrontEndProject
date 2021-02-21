@@ -6,7 +6,11 @@ h1{font-size: 66px; font-weight: 600; line-height: 80px; color: rgb(255, 255, 25
 
 h2{font-size: 48px; margin-bottom: 30px;}
 
-h3{font-size: 55px; margin-bottom: 30px;}
+h3{font-size: 55px; margin-bottom: 30px; margin-top: 30px;}
+
+h4{font-size: 24px; margin-bottom: 10px;}
+
+h5{font-size: 24px; margin-bottom: 160px; color: black;}
 
 
 p{
@@ -94,10 +98,33 @@ section{
     transition: all 0.8s;
 }
 
+
 .materias-container:hover img{
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.publica-container{
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    border-radius: 3px;
+}
+
+.publica-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+.publica-container:hover img{
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
 }
 
 .materias-details{
@@ -111,9 +138,19 @@ section{
     margin-bottom: 0px;
 }
 
+
 .materias-details a h2, .materias-details a p{
     color:white;
 }
+
+.materias-details a h4, .materias-details a p{
+    color:white;
+}
+.materias-details a h5, .materias-details a p{
+    color:rgb(0, 0, 0);
+}
+
+
 
 #footer{
     padding: 80px 0;
